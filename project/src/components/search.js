@@ -8,7 +8,7 @@ export default class Search extends Component{
 	render(){
 		return(
 			<div className="search">
-				
+				<input type="search" placeholder="搜索商品"/>
 			</div>
 			)
 	}
