@@ -5,6 +5,7 @@ import axios from 'axios';
 import Search from './components/search'
 import Header from './components/header'
 import Footer from './components/footer'
+import Coupon from './components/coupon'
 import ShoppingCart from './components/ShoppingCart'
 import Home from './components/home'
 import {

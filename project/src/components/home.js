@@ -5,7 +5,9 @@ import axios from 'axios';
 import Search from './search'
 import Header from './header'
 import Footer from './footer'
+import Coupon from './coupon'
 import ShoppingCart from './ShoppingCart'
+
 import {
   BrowserRouter as Router,
   Route,
@@ -18,13 +20,14 @@ class Home extends Component {
       films:[]
     }
   }
- 
+
   render() {
     return (
       <div>
         <Search></Search>
         <Header></Header>
         <Footer></Footer>
+        <Coupon></Coupon>
       </div>
      
         
