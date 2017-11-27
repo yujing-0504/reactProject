@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react'
 import ShoppingCart from './ShoppingCart'
 import './footer.css'
@@ -52,4 +53,6 @@ class Footer extends Component{
   }
 }
 export default Footer
+
+
 //trunl接收一个回调函数作为参数
