@@ -3,3 +3,12 @@
 	height: 2.26375rem;
 	background: pink;
 }
+.header ul{
+	overflow-x:auto;
+
+	height: 100%;
+}
+.header ul li{
+	width: 2.26375rem;
+	display: inline-block;
+}
