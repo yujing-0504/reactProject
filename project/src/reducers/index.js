@@ -3,7 +3,7 @@ import ListReducer from './ListReducer'
 import HeaderReducer from './HeaderReducer'
 // combineReducers合并多个reducers
 const reducers = combineReducers({
-	list: ListReducer,
+	enjoyList: ListReducer,
 	headList:HeaderReducer
 })
 
