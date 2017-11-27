@@ -6,10 +6,13 @@ import Search from './components/search'
 import Header from './components/header'
 import Footer from './components/footer'
 import ShoppingCart from './components/ShoppingCart'
+import Home from './components/home'
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  Switch,
+  Redirect
 } from 'react-router-dom'
 class App extends Component {
   constructor(){
@@ -21,11 +24,19 @@ class App extends Component {
   
   render() {
     return (
-      <div className="App">
-        <Search></Search>
-        <Header></Header>
-        <Footer></Footer>
-      </div>
+       <Router>
+            <div className="App">
+              
+                <Switch>
+                  <Redirect exact from="/" to="/home"/>
+                  <Route path='/ShoppingCart' component={ShoppingCart}/>
+                   <Route path='/' component={Home}/>
+                </Switch>
+             
+            </div>
+          </Router>
+     
+     
     );
   }
 }
