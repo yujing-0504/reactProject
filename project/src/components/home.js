@@ -7,7 +7,8 @@ import Header from './header'
 import Footer from './footer'
 import Coupon from './coupon'
 import ShoppingCart from './ShoppingCart'
-
+import Cdn from './cdn'
+import List from './list'
 import {
   BrowserRouter as Router,
   Route,
@@ -28,6 +29,8 @@ class Home extends Component {
         <Header></Header>
         <Footer></Footer>
         <Coupon></Coupon>
+        <Cdn></Cdn>
+        <List></List>
       </div>
      
         

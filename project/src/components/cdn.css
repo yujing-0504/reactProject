@@ -1,0 +1,17 @@
+.cdn{
+	width: 100%;
+	height: 4.716875rem;
+	margin-bottom: 0.1rem;
+}
+.cdn ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.cdn ul li{
+	width: 100%;
+	height: 100%;
+	flex: 1
+}
+.cdn img{width: 100%;height: 100%;}
