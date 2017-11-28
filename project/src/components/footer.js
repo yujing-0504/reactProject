@@ -1,6 +1,6 @@
 
 import React, {Component} from 'react'
-import ShoppingCart from './ShoppingCart'
+
 import './footer.css'
 import {
 	BrowserRouter as Router,

@@ -1,0 +1,11 @@
+.photo{
+	width: 100%;
+}
+.detailInfo {
+    margin-bottom: 0.3rem;
+    background: #fff;
+}
+.photo .detailInfo .imgP{
+	height: 8.83rem;
+    position: relative;
+}

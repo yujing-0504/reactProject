@@ -15,13 +15,7 @@ import {
   Link
 } from 'react-router-dom'
 class Home extends Component {
-  constructor(){
-    super();
-    this.state={
-      films:[]
-    }
-  }
-
+  
   render() {
     return (
       <div>

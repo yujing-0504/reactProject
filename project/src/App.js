@@ -8,6 +8,8 @@ import Footer from './components/footer'
 import Coupon from './components/coupon'
 import ShoppingCart from './components/ShoppingCart'
 import Home from './components/home'
+import Detail from './components/detail'
+//import ShoppingCart from './components/ShoppingCart'
 import {
   BrowserRouter as Router,
   Route,
@@ -31,7 +33,8 @@ class App extends Component {
                 <Switch>
                   <Redirect exact from="/" to="/home"/>
                   <Route path='/ShoppingCart' component={ShoppingCart}/>
-                   <Route path='/' component={Home}/>
+                  <Route path='/detail' component={Detail}/>
+                   <Route path='/home' component={Home}/>
                 </Switch>
              
             </div>

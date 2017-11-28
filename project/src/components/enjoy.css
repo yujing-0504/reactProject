@@ -33,3 +33,117 @@
 	width: 100%;
 	height: 100%;
 }
+.enjoy .img{
+	width: 100%;
+	
+}
+.enjoy .center{
+	min-height: 60rem;
+}
+.enjoy .center1{
+	min-height: 16rem;
+}
+.enjoy .center2{
+	min-height: 35rem;
+}
+
+.enjoy .center3{
+	min-height: 45rem;
+}
+.enjoy .center4{
+	min-height: 45rem;
+}
+.goods_one{
+	margin-top: .2rem;
+}
+.goods_block {
+    padding-top: .20rem;
+    padding-left: .28rem;
+    padding-right: .28rem;
+    background-color: white;
+}
+.goods {
+    display: block;
+    margin-bottom: .30rem;
+    position: relative;
+}
+.goods a{
+	margin-top: 20px;
+	display: block;
+	padding: 0 0.5rem 0 0.5rem;
+}
+.center5 .div:nth-child(1){
+	display: none;
+}
+ .goods-title {
+ 	margin-top: 1.5rem;
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #252525;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+
+}
+.goods-desc {
+    color: #9f9f9f;
+    font-size: .36rem;
+    line-height: 1.8em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: .2rem;
+    text-align: left;
+}
+.price-block {
+    left: 0;
+    bottom: 0;
+    display: table;
+    height: 2rem;
+    font-size: 18px;
+    line-height: 2em;
+    color: #f0593f;
+    vertical-align: left;
+}
+.cart-btn .icon-cart{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: .3rem;
+    margin-top: .06rem;
+}
+.cart-btn {
+    box-sizing: border-box;
+    /* padding-top: .1rem; */
+    width: 6rem;
+    height: 2rem;
+    line-height: 100%;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+    color: #666;
+    border: 1px solid #a4a4a4;
+    border-radius: .05rem;
+    font-size: .3rem;
+    background: #fff;
+    line-height: 1.2em;
+    -moz-border-radius: .1rem;
+    -webkit-border-radius: .1rem;
+    border-radius: .1rem;
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -moz-box-pack: center;
+    -webkit-box-pack: center;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.cart-btn img{
+	width: 1.5rem;height: 1.5rem;
+}
+
