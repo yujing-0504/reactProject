@@ -3,14 +3,14 @@
 	background: #fff;
 	margin-bottom: .2rem;
 }
-.enjoy .title{
+.title{
 	padding: .6rem 0 .26rem;
 	text-align: center;
 	width: 100%;
 	height: 3.059375rem;
 	line-height: 3.059375rem;
 }
-.enjoy .title .label_left, .enjoy .title .label_right{
+.title .label_left, .title .label_right{
 	display: inline-block;
     border-bottom: .04rem solid #a8a8ad;
     position: relative;

@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {connect} from  'react-redux';
- import './header.css'
+import './header.css'
 import axios from "axios";
 class Header extends Component {
 	componentDidMount() {

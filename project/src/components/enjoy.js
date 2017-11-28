@@ -16,34 +16,18 @@ class Enjoy extends Component {
   }
 
   render() {
-    var props = this.props
+    // var props = this.props
+    var arr = this.props.enjoyList.length ? this.props.enjoyList[0].list:[];
+
     return(
       <div className="enjoy">
            {
-           props.enjoyList.map((item, index)=>{
-                  return (
-                    <div key={index}>
-                       <div className="title">
-                          <p className="label_left"></p>
-                          <div className="label">{item.txt}</div>
-                          <p className="label_right"></p>
-                        </div>
-                        {
-                          // this.state.img.map((item,index)=>{
-                          //   return(
-                          //       <a href="#" className="topImg" key={index}>
-                          //          <img src={item.cover}/>
-                          //       </a>
-                          //     )
-                          // })
-                          
-                        }
-                      
-                    </div>
-                  );
-                })
-          }
-       
+            arr.map((item, index)=>{
+              return (
+                <img src={item.list[0].cover} />
+              )
+            })
+           }
          
        
       </div>
@@ -60,12 +44,10 @@ const mapDispatchToProps = (dispatch)=>{
   return{
     Listaa:function(data){
      axios.get("/api/index/index?_=1511765699828").then((res) => {
-      console.log(res.data.data.complex);
-          
+      
           dispatch({
             type:"LIST",
             payload:res.data.data.complex
-
           })
 
     })
@@ -77,3 +59,28 @@ const mapDispatchToProps = (dispatch)=>{
 const EnjoyUI = connect(mapStateToProps, mapDispatchToProps)(Enjoy);
 export default EnjoyUI;
 //export default Enjoy;
+
+// {
+//            props.enjoyList.map((item, index)=>{
+//                   return (
+//                     <div key={index}>
+//                        <div className="title">
+//                           <p className="label_left"></p>
+//                           <div className="label"></div>
+//                           <p className="label_right"></p>
+//                         </div>
+//                         {
+//                           // this.state.img.map((item,index)=>{
+//                           //   return(
+//                           //       <a href="#" className="topImg" key={index}>
+//                           //          <img src={item.cover}/>
+//                           //       </a>
+//                           //     )
+//                           // })
+                          
+//                         }
+                      
+//                     </div>
+//                   );
+//                 })
+//           }
