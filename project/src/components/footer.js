@@ -40,7 +40,7 @@ class Footer extends Component{
           </Link>
         </li>
          <li>
-          <Link to='./ShoppingCart'>
+          <Link to='./login'>
             <i className="iconfont">&#xe60d;</i><br/>
             <span>我的</span>
           </Link>

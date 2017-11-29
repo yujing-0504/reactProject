@@ -9,6 +9,7 @@ import Coupon from './components/coupon'
 import ShoppingCart from './components/ShoppingCart'
 import Home from './components/home'
 import Detail from './components/detail'
+import Login from './components/login'
 //import ShoppingCart from './components/ShoppingCart'
 import {
   BrowserRouter as Router,
@@ -34,6 +35,7 @@ class App extends Component {
                   <Redirect exact from="/" to="/home"/>
                   <Route path='/ShoppingCart' component={ShoppingCart}/>
                   <Route path='/detail' component={Detail}/>
+                  <Route path='/login' component={Login}/>
                    <Route path='/home' component={Home}/>
                 </Switch>
              

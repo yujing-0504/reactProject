@@ -1,20 +1,24 @@
 import React,{Component} from 'react';
 import {connect} from  'react-redux';
-import './addCart.css'
+import './login.css'
 import axios from "axios";
 
-class AddCart extends Component {
-	
+class Login extends Component {
 	render() {
 		var props = this.props
 		return(
-			<div className="addcart">
-				添加
-			</div>
-			
+			<div className="login">登录</div>
 		)
 	}
 }
 
-export default AddCart;
+export default Login;
+
+
+
+
+
+
+
+
 
