@@ -74,64 +74,64 @@ class Introduce extends Component {
 
 					</dl>
 				</div>
-				<dl class="more-property detail-content">
+				<dl className="more-property detail-content">
                 <dt>产品规格</dt>
                 
                 <dd>
-                    <span class="prop-name">产地</span>
-                    <span class="prop-value">日本</span>
+                    <span className="prop-name">产地</span>
+                    <span className="prop-value">日本</span>
                 </dd>
                 
                 <dd>
-                    <span class="prop-name">保质期限</span>
-                    <span class="prop-value">3年</span>
+                    <span className="prop-name">保质期限</span>
+                    <span className="prop-value">3年</span>
                 </dd>
                 
                 <dd>
-                    <span class="prop-name">储藏方式</span>
-                    <span class="prop-value">阴凉避光存储</span>
+                    <span className="prop-name">储藏方式</span>
+                    <span className="prop-value">阴凉避光存储</span>
                 </dd>
                 
                 <dd>
-                    <span class="prop-name">品牌</span>
-                    <span class="prop-value">SENKA/珊珂</span>
+                    <span className="prop-name">品牌</span>
+                    <span className="prop-value">SENKA/珊珂</span>
                 </dd>
                 
                 <dd>
-                    <span class="prop-name">功效</span>
-                    <span class="prop-value">保湿/深层清洁/清洁毛孔</span>
+                    <span className="prop-name">功效</span>
+                    <span className="prop-value">保湿/深层清洁/清洁毛孔</span>
                 </dd>
                 
                 <dd>
-                    <span class="prop-name">生产日期</span>
-                    <span class="prop-value">见产品外包装</span>
+                    <span className="prop-name">生产日期</span>
+                    <span className="prop-value">见产品外包装</span>
                 </dd>
                 
                 <dd>
-                    <span class="prop-name">品名</span>
-                    <span class="prop-value">SENKA珊珂绵润泡沫洁面乳 120g*2</span>
+                    <span className="prop-name">品名</span>
+                    <span className="prop-value">SENKA珊珂绵润泡沫洁面乳 120g*2</span>
                 </dd>
                 
                 <dd>
-                    <span class="prop-name">规格</span>
-                    <span class="prop-value">120g*2</span>
+                    <span className="prop-name">规格</span>
+                    <span className="prop-value">120g*2</span>
                 </dd>
                 
                 <dd>
-                    <span class="prop-name">适合肤质</span>
-                    <span class="prop-value">任何肤质</span>
+                    <span className="prop-name">适合肤质</span>
+                    <span className="prop-value">任何肤质</span>
                 </dd>
                 
                 <dd>
-                    <span class="prop-name">主要成分</span>
-                    <span class="prop-value">丝胶蛋白/水解蚕丝蛋白/玻尿酸钠/乙基玻尿酸钠</span>
+                    <span className="prop-name">主要成分</span>
+                    <span className="prop-value">丝胶蛋白/水解蚕丝蛋白/玻尿酸钠/乙基玻尿酸钠</span>
                 </dd>
                 
             </dl>
-            <div class="advertisement">
+            <div className="advertisement">
                 
                 
-                <a class="advertisement-coupon" href="/get-coupon.html?activity_id=350">
+                <a className="advertisement-coupon" href="/get-coupon.html?activity_id=350">
                     <img src="http://img.cdn.daling.com/data/files/mobile/2017/11/23/1511419942270.png" />
                 </a>
                 

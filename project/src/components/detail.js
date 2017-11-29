@@ -7,7 +7,7 @@ export default class Detail extends Component{
     return(
       <div className="detail">
         <Photo></Photo>
-       
+       	<Guess></Guess>
       </div>
       )
   }
