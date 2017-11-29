@@ -34,7 +34,7 @@ class App extends Component {
                 <Switch>
                   <Redirect exact from="/" to="/home"/>
                   <Route path='/ShoppingCart' component={ShoppingCart}/>
-                  <Route path='/detail' component={Detail}/>
+                  <Route path='/detail/:fid' component={Detail}/>
                   <Route path='/login' component={Login}/>
                    <Route path='/home' component={Home}/>
                 </Switch>

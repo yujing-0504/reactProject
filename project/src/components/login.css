@@ -1,3 +1,67 @@
 .login{
-	width: 100%;
+	background-color: #f4f3f6;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.shoujihao{
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 40px;
+    background: #fff;
+    border-radius: .5rem;
+    padding: 0.5625rem 0 0.5625rem 0.75rem;
+    margin-top: 0.75rem;
+}
+.yanzhengma{
+    outline: none;
+    border: none;
+    width: 60%;
+    height: 40px;
+    background: #fff;
+    border-radius: .5rem;
+    padding: 0.5625rem 0 0.5625rem 0.75rem;
+    margin-top: 0.75rem;
+
+}
+.tupian{
+	width: 30%;
+	height: 40px;
+
+
+}
+.yanzhengma2{
+    outline: none;
+    border: none;
+    width: 60%;
+    height: 40px;
+    background: #fff;
+    border-radius: 0.9375rem;
+    padding: 0.5625rem 0 0.5625rem 0.75rem;
+    margin-top: 0.75rem;
+  
+
+}
+.huoqu{
+	width: 30%;
+	height: 40px;
+	line-height: 40px;
+    background: #b349bd;
+    display: inline-block;
+    text-align: center;
+  	color: #fff;
+}
+
+
+
+.denglu{
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 3rem;
+    background: #ccc;
+    border-radius: .5rem;
+    padding: 0.3rem 0 0.3rem 0.4rem;
+    margin-top: 0.75rem;
 }

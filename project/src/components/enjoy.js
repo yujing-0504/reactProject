@@ -150,7 +150,7 @@ class Enjoy extends Component {
                    return (
                     <div className="goods_one" key={index}>
                       <div className="goodsBlock">
-                      <Link to='./detail'>
+                      <Link to={'/detail/'+item.goods_id}>
                         <div className="goods">
                           
                             <img src={item.cover_image} key={index}/>

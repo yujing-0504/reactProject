@@ -17,7 +17,7 @@ class AddCart extends Component {
 		return(
 			<div className="addcart">
 				<div className="detail-bar border-top">
-				    <Link to='./ShoppingCart'>
+				    <Link to='../ShoppingCart'>
 				        <span className="icon-dal icon-cart">
 				        	<i className="iconfont">&#xe68c;</i>
 				        </span>

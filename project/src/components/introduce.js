@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import {connect} from  'react-redux';
 import './introduce.css'
 import axios from "axios"
-
+import Product from './product'
 
 class Introduce extends Component {
 	componentDidMount() {
