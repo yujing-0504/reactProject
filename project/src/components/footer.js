@@ -55,4 +55,4 @@ class Footer extends Component{
 export default Footer
 
 
-//trunl接收一个回调函数作为参数
+//trunk接收一个回调函数作为参数

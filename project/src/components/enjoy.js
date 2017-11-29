@@ -154,8 +154,8 @@ class Enjoy extends Component {
                         <div className="goods">
                           
                             <img src={item.cover_image} key={index}/>
-                            <div className="goods-title">{item.goods_show_name}</div>
-                            <div className="goods-desc">{item.goods_show_desc}</div>
+                            <div className="goods-title">{item.title_desc}</div>
+                            <div className="goods-desc">{item.short_goods_name}</div>
                             <div className="price-block">￥{item.price}</div>
                             <div className="cart-btn">
                             <div className="cart-btn-desc">

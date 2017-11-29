@@ -1,0 +1,1 @@
+detailBar.js

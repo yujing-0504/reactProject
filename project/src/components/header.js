@@ -2,12 +2,12 @@ import React,{Component} from 'react';
 import {connect} from  'react-redux';
 import './header.css'
 import axios from "axios";
+
 class Header extends Component {
 	componentDidMount() {
 		this.props.headaa()
 	}
 	render() {
-		//return(<div>dsf</div>)
 		var props = this.props
 		return(
 			<div className="header">
@@ -34,7 +34,6 @@ const mapDispatchToProps = (dispatch)=>{
 		return{
 			headaa:function(data){
 				axios.get('/api/menu/homeChannel?_=1511765699830').then((res)=>{
-
 					console.log(res.data.data)
 					console.log("aaa")
 					dispatch({
