@@ -10,6 +10,7 @@ import ShoppingCart from './components/ShoppingCart'
 import Home from './components/home'
 import Detail from './components/detail'
 import Login from './components/login'
+import Register from './components/register'
 //import ShoppingCart from './components/ShoppingCart'
 import {
   BrowserRouter as Router,
@@ -36,7 +37,10 @@ class App extends Component {
                   <Route path='/ShoppingCart' component={ShoppingCart}/>
                   <Route path='/detail/:fid' component={Detail}/>
                   <Route path='/login' component={Login}/>
-                   <Route path='/home' component={Home}/>
+                  <Route path='/register' component={Register}/>
+                  <Route path='/home' component={Home}/>
+                  }
+
                 </Switch>
              
             </div>

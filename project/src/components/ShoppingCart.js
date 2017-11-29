@@ -6,7 +6,6 @@ export default class ShoppingCart extends Component{
 			<div className="shoppingcart">
 			    购物车
 		    </div>
-			
 			)
 	}
 }

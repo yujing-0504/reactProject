@@ -19,7 +19,7 @@ class Photo extends Component {
 				//props.photoList.map((item, index)=>{
 		           //return (
 						<div className="detailInfo" >
-							<img className="imgP" src="http://img.daling.com/data/files/mobile/2017/09/29/15066649585320.jpg" />
+							<img className="imgP" src={props.photoList.cover_image} />
 							<div className="detail-prop">
 								<div className="detail-prop-info">
 									<div className="goods_name">{props.photoList.goods_title}</div>
@@ -64,7 +64,7 @@ const mapStateToProps = (state)=>{
 const mapDispatchToProps = (dispatch)=>{
 		return{
 			photoaa:function(){
-				axios.get('/api/goods/detail?goods_id=305924&_=1511863545339').then((res)=>{
+				axios.get(`/api/goods/detail?goods_id=305924&_=1511863545339`).then((res)=>{
 					console.log(res.data.data)
 					dispatch({
 						type:"PHOTO",
