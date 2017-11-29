@@ -6,7 +6,6 @@ import Search from './search'
 import Header from './header'
 import Footer from './footer'
 import Coupon from './coupon'
-import ShoppingCart from './shoppingCart'
 import Cdn from './cdn'
 import List from './list'
 import {
