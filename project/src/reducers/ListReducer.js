@@ -1,5 +1,5 @@
 export default function(state=[], action) {
-	// console.log(state);
+	console.log(action);
 	let newS;
 	switch(action.type) {
 		case "LIST":

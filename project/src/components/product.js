@@ -6,10 +6,13 @@ import axios from "axios"
 class Product extends Component {
 	componentDidMount() {
 		this.props.introducebb();
+		console.log(this)
 	}
 	render() {
 		var props = this.props
-		
+		// console.log(props)
+		// var items = props.ProductList?props.ProductList:[];
+		// console.log(props.ProductList)
 		
 		return(
 			<div>
@@ -41,14 +44,17 @@ class Product extends Component {
 	}
 }
 const mapStateToProps = (state)=>{
+	console.log(state)
   return {
    ProductList: state.ProductList
   }
 }
 const mapDispatchToProps = (dispatch)=>{
+
 		return{
 			introducebb:function(data){
-				axios.get('/api/goods/detail?goods_id=305924&_=1511930560817').then((res)=>{
+				console.log()
+				axios.get(`/api/goods/detail?goods_id=305924&_=1511863545339`).then((res)=>{
 					console.log(res.data.data.more_property)
 					console.log("product")
 					dispatch({

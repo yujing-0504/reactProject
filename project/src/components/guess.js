@@ -22,21 +22,23 @@ class Guess extends Component {
           <p className="label_right"></p>
         </div>
          <div className="searchList" >
+        
           {
              props.guessList.map((item,index)=>{
                 return(
-                    
-                        <dl className="style1" key={index}>
+                        <Link to={'/detail/'+item.goods_id} key={index}>
+
+                        <dl className="style1" >
                           <dt>
-                            <a href="#">
+                            <span>
                               <img src={item.cover_image}/>
-                            </a>
+                           </span>
                           </dt>
                           <dd>
-                            <a href="#">
+                             <span>
                               <strong>{item.goods_show_name}</strong>
                               <em>{item.goods_show_desc}</em>
-                            </a>
+                            </span>
                             <div>
                               <span>
                                 <strong>￥{item.price}</strong>
@@ -49,10 +51,11 @@ class Guess extends Component {
                             <p>{item.add_cart_num}人已加入购物车</p>
                           </dd>
                         </dl>
-                    
+                    </Link>
                   );
               })
         }
+
         </div>
   		</div>
   		)

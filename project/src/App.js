@@ -27,11 +27,11 @@ class App extends Component {
     }
   }
   
-  render() {
+  render() 
+         {
     return (
        <Router>
             <div className="App">
-              
                 <Switch>
                   <Redirect exact from="/" to="/home"/>
                   <Route path='/ShoppingCart' component={ShoppingCart}/>
@@ -39,10 +39,9 @@ class App extends Component {
                   <Route path='/login' component={Login}/>
                   <Route path='/register' component={Register}/>
                   <Route path='/home' component={Home}/>
-                  }
+               }
 
                 </Switch>
-             
             </div>
           </Router>
      

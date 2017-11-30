@@ -1,0 +1,1 @@
+SET DEBUG=data:* & npm start

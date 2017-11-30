@@ -23,6 +23,7 @@ class Enjoy extends Component {
     var arr3 = this.props.enjoyList.length ? this.props.enjoyList[3].list : [];
     var arr4 = this.props.enjoyList.length ? this.props.enjoyList[4].list : [];
     var arr5 = this.props.enjoyList.length ? this.props.enjoyList[5].list : [];
+    // console.log(arr5)
     return(
       <div className="enjoy">
         <div className="center">
@@ -147,6 +148,7 @@ class Enjoy extends Component {
             </div>  
               {
                    arr5.map((item, index)=>{
+
                    return (
                     <div className="goods_one" key={index}>
                       <div className="goodsBlock">
@@ -192,7 +194,7 @@ const mapDispatchToProps = (dispatch) => {
   return {
     Listaa: function(data) {
       axios.get("/api/index/index?_=1511765699828").then((res) => {
-
+        console.log(res)
         dispatch({
           type: "LIST",
           payload: res.data.data.complex
